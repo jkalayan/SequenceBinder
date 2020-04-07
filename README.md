@@ -1,5 +1,6 @@
 # sequenceBinder
-Tool for binding counterions onto charged protein residues. 
+Tool for binding counterions onto charged protein residues and discussed in detail within the research paper below:  
+[Model for Counterion Binding and Charge Reversal on Protein Surfaces](https://doi-org.manchester.idm.oclc.org/10.1021/acs.molpharmaceut.9b01047).
 
 Example: 
 ```
