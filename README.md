@@ -10,7 +10,7 @@ Example:
 ```
 python sequenceBinder.py --fileName file.pdb --pH 7 --conc_neg 0.1 --neg_charge 3 --pos_charge 1
 ``` 
-**Note:** Only set concentration of positive *or* negative counterion.
+**Note:** Only set the concentration of the positive *or* negative counterion. The concentration of the other ion is calculated within the tool so that concentrations are charge balanced.
 
 ```
 optional arguments:
@@ -39,3 +39,7 @@ optional arguments:
   -r, --res_counts      include flag if residue counts are required (default:
                         False)
 ```
+
+Output files:
+1. .csv file containing binding information such as protein start charge, end charge, etc.
+2. If the -r flag is used, then a .csv containing number of each residue type in protein is also outputted.
