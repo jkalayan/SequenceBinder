@@ -41,5 +41,5 @@ optional arguments:
 ```
 
 Output files:
-1. .csv file containing binding information such as protein start charge, end charge, etc.
-2. If the -r flag is used, then a .csv containing number of each residue type in protein is also outputted.
+1. A .csv file containing binding information such as protein start charge, end charge, etc.
+2. If the -r flag is used, then a .csv containing the number of each residue type in the protein is also outputted.
