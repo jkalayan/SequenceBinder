@@ -1,6 +1,4 @@
 # sequenceBinder
-Self-contained script for calculating protein charge after binding with counterions
-
 Tool for binding counterions onto charged protein residues. 
 
 Example: 
