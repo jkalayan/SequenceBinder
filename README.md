@@ -6,7 +6,7 @@ Example:
 ```
 python sequenceBinder.py --fileName file.pdb --pH 7 --conc_neg 0.1 --neg_charge 3 --pos_charge 1
 ``` 
-Note: Only set concentration of positive or negative counterion.
+**Note:** Only set concentration of positive *or* negative counterion.
 
 ```
 optional arguments:
