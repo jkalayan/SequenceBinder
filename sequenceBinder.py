@@ -396,7 +396,7 @@ def main():
                 formatter_class=argparse.ArgumentDefaultsHelpFormatter)
         group = parser.add_argument_group('Options')
         group = parser.add_argument('-f', '--fileName', action='store', 
-                default='pdbs.list', help='input pdb list file name')
+                default='file.pdb', help='input pdb list file name')
         group = parser.add_argument('-pH', '--pH', action='store', 
                 type=float, default=7, help='input pH')
         group = parser.add_argument('-cn', '--conc_neg', action='store', 
