@@ -2,6 +2,10 @@
 Tool for binding counterions onto charged protein residues and discussed in detail within the research paper below:  
 [Model for Counterion Binding and Charge Reversal on Protein Surfaces](https://doi-org.manchester.idm.oclc.org/10.1021/acs.molpharmaceut.9b01047).
 
+<p align="center">
+<img src="https://github.com/jkalayan/sequenceBinder/blob/master/abstract_image5.png" width="400">
+</p>
+
 Example: 
 ```
 python sequenceBinder.py --fileName file.pdb --pH 7 --conc_neg 0.1 --neg_charge 3 --pos_charge 1
