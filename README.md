@@ -18,7 +18,7 @@ optional arguments:
   -h, --help            show this help message and exit
   
   -f FILENAME, --fileName FILENAME
-                        input pdb list file name (default: pdbs.list)
+                        input pdb list file name (default: file.pdb)
                         
   -pH PH, --pH PH       input pH (default: 7)
   
